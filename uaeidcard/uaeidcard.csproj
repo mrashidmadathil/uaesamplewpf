@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B8543745-0E62-429D-A041-78049F79FFF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>uaeidcard</RootNamespace>
+    <AssemblyName>uaeidcard</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IDCardToolkit">
+      <HintPath>..\..\..\SDK\id-card-toolkit-windows-sdk-v2.0.5-r1\lib\dotnet\64\IDCardToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="UserControls\AuthBioOnServerUserControl.xaml.cs">
+      <DependentUpon>AuthBioOnServerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AuthCardAndBioOnServerUserControl.xaml.cs">
+      <DependentUpon>AuthCardAndBioOnServerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AuthenticatePkiUserControl.xaml.cs">
+      <DependentUpon>AuthenticatePkiUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CadesSignUserControl.xaml.cs">
+      <DependentUpon>CadesSignUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CadesVerifyUserControl.xaml.cs">
+      <DependentUpon>CadesVerifyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CardPublicDataEFUserControl.xaml.cs">
+      <DependentUpon>CardPublicDataEFUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CheckCardStatusUserControl.xaml.cs">
+      <DependentUpon>CheckCardStatusUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CleanupUserControl.xaml.cs">
+      <DependentUpon>CleanupUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConfigCertExpiryDateUserControl.xaml.cs">
+      <DependentUpon>ConfigCertExpiryDateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConnectUserControl.xaml.cs">
+      <DependentUpon>ConnectUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DeviceIdUserControl.xaml.cs">
+      <DependentUpon>DeviceIdUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DisconnectUserControl.xaml.cs">
+      <DependentUpon>DisconnectUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FamilyBookDataUserControl.xaml.cs">
+      <DependentUpon>FamilyBookDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GetCertificatesUserControl.xaml.cs">
+      <DependentUpon>GetCertificatesUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GetCSNUserControl.xaml.cs">
+      <DependentUpon>GetCSNUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GetFingerDataUserControl.xaml.cs">
+      <DependentUpon>GetFingerDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GetInterfaceTypeUserControl.xaml.cs">
+      <DependentUpon>GetInterfaceTypeUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GetReaderWithEmiratesIdUserControl.xaml.cs">
+      <DependentUpon>GetReaderWithEmiratesIdUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\InitializeUserControl.xaml.cs">
+      <DependentUpon>InitializeUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LicenseExpiryDateUserControl.xaml.cs">
+      <DependentUpon>LicenseExpiryDateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ListReadersUserControl.xaml.cs">
+      <DependentUpon>ListReadersUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NFCAuthFieldsUserControl.xaml.cs">
+      <DependentUpon>NFCAuthFieldsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PadesSignUserControl.xaml.cs">
+      <DependentUpon>PadesSignUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PadesVerifyUserControl.xaml.cs">
+      <DependentUpon>PadesVerifyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ParseEFDataUserControl.xaml.cs">
+      <DependentUpon>ParseEFDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ParseMRZDataUserControl.xaml.cs">
+      <DependentUpon>ParseMRZDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PublicDataUserControl.xaml.cs">
+      <DependentUpon>PublicDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PublicDataUsingNFCUserControl.xaml.cs">
+      <DependentUpon>PublicDataUsingNFCUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReadDataUserControl.xaml.cs">
+      <DependentUpon>ReadDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RegisterDeviceUserControl.xaml.cs">
+      <DependentUpon>RegisterDeviceUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ResetPinUserControl.xaml.cs">
+      <DependentUpon>ResetPinUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ResponseValidationUserControl.xaml.cs">
+      <DependentUpon>ResponseValidationUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SignOrVerifyUserControl.xaml.cs">
+      <DependentUpon>SignOrVerifyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ToolkitVersionUserControl.xaml.cs">
+      <DependentUpon>ToolkitVersionUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UnblockPinUserControl.xaml.cs">
+      <DependentUpon>UnblockPinUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UpdateDataUserControl.xaml.cs">
+      <DependentUpon>UpdateDataUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\XadesSignUserControl.xaml.cs">
+      <DependentUpon>XadesSignUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\XadesVerifyUserControl.xaml.cs">
+      <DependentUpon>XadesVerifyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ErrorDialog.xaml.cs">
+      <DependentUpon>ErrorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VerifyPinDialog.xaml.cs">
+      <DependentUpon>VerifyPinDialog.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\Style.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AuthBioOnServerUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AuthCardAndBioOnServerUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AuthenticatePkiUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CadesSignUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CadesVerifyUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CardPublicDataEFUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CheckCardStatusUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CleanupUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ConfigCertExpiryDateUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ConnectUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DeviceIdUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DisconnectUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\FamilyBookDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GetCertificatesUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GetCSNUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GetFingerDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GetInterfaceTypeUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GetReaderWithEmiratesIdUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\InitializeUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\LicenseExpiryDateUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ListReadersUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\NFCAuthFieldsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\PadesSignUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\PadesVerifyUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ParseEFDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ParseMRZDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\PublicDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\PublicDataUsingNFCUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ReadDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RegisterDeviceUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ResetPinUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ResponseValidationUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SignOrVerifyUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ToolkitVersionUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\UnblockPinUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\UpdateDataUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\XadesSignUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\XadesVerifyUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ErrorDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\VerifyPinDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainWindowHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

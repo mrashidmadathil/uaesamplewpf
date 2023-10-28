@@ -1,0 +1,396 @@
+10-27 21:41:41.930 10640  2276 I [37:915] Config location online [false]
+10-27 21:41:41.930 10640  2276 I [37:919] Config params does not contain TLS certificate and its chain
+10-27 21:41:41.930 10640  2276 I [37:930] Config directory path ["D:\New folder\CONFIG_DIRECTORY"]
+10-27 21:41:41.931 10640  2276 I [15:1064] Application session timeout [10]
+10-27 21:41:41.931 10640  2276 I [15:1076] Agent TLS enabled [false]
+10-27 21:41:41.931 10640  2276 I [15:1243] Invoking toolkit core module
+
+10-27 21:41:41.958 10640  2276 I [37:915] Config location online [false]
+10-27 21:41:41.959 10640  2276 I [37:919] Config params does not contain TLS certificate and its chain
+10-27 21:41:41.959 10640  2276 I [37:930] Config directory path ["D:\New folder\CONFIG_DIRECTORY"]
+10-27 21:41:41.959 10640  2276 I [17:1415] Initializing Emirates ID Card Toolkit
+10-27 21:41:41.959 10640  2276 I [17:1417] Toolkit version ["2.0.5"]
+10-27 21:41:41.959 10640  2276 W [30:1472] Failed to load config_pd data [Error#1:134:12, "File could not be opened"]
+10-27 21:41:41.959 10640  2276 I [19:269] Failed to read file ["D:\New folder\CONFIG_DIRECTORY/config_li"]
+10-27 21:41:41.959 10640  2276 E [37:1382] Could not read config file [Error#1:134:12, "File could not be opened"]
+10-27 21:41:41.959 10640  2276 E [30:1335] Failed to get config_li data [Error#1:134:12, "File could not be opened"]
+10-27 21:41:41.959 10640  2276 E [30:1723] Failed to get license config data [Error#30:1335:188, "Invalid config (config_li) data"]
+10-27 21:41:41.960 10640  2276 E [17:1455] Failed to get config data [Error#30:1335:188, "Invalid config (config_li) data"]
+10-27 21:41:41.960 10640  2276 E [17:804] Toolkit is not intitialized
+10-27 21:41:41.960 10640  2276 I Failed to initialize toolkit ["Invalid config (config_li) data"]
+
+10-27 21:41:41.960 10640  2276 E [15:1251] Toolkit is not intitialized
+10-27 21:41:41.960 10640  2276 I Service started successfully
+
+10-27 18:23:26.777  8468  4644 I [17:1415] Initializing Emirates ID Card Toolkit
+10-27 18:23:26.778  8468  4644 I [17:1417] Toolkit version ["2.0.5"]
+10-27 18:23:26.778  8468  4644 I [17:1294] SDK used is ["DotNet"]
+10-27 18:23:26.778  8468  4644 W [30:1472] Failed to load config_pd data [Error#1:134:12, "File could not be opened"]
+10-27 18:23:26.782  8468  4644 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCert"]
+10-27 18:23:26.782  8468  4644 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCertChain"]
+10-27 18:23:26.782  8468  4644 I [5:274] License expiry date ["2024-06-05+04:00"]
+10-27 18:23:26.783  8468  4644 I [30:1728] License type PRE-PRODUCTION
+10-27 18:23:26.795  8468  4644 E [37:2096] Failed to load config_sb data [Error#1:134:12, "File could not be opened"]
+10-27 18:23:26.796  8468  4644 I [37:2183] config_sb file not loaded
+10-27 18:23:26.800  8468  4644 I [30:1910] Encoded configuration file content version [config_vg_qa ["1.1"] config_li ["1.1"] config_lv_qa ["1.1"] config_pg ["1.1"] config_tk_qa [""]]
+10-27 18:23:26.802  8468  4644 I [37:347] Log level ["INFO"]
+10-27 18:23:26.802  8468  4644 I [37:385] SM mode [2]
+10-27 18:23:26.802  8468  4644 I [37:406] Enable digital signature [false]
+10-27 18:23:26.802  8468  4644 I [37:427] Read public data offline [false]
+10-27 18:23:26.802  8468  4644 I [37:431] Log performance time [false]
+10-27 18:23:26.802  8468  4644 I [37:466] Client SDK mode ["InProcess"]
+10-27 18:23:26.803  8468  4644 I [9:534] "smartcard_reader" plugins in configuration
+10-27 18:23:26.803  8468  4644 I [9:542] [0. "PCSCLib.dll"]
+10-27 18:23:26.803  8468  4644 I [9:542] [1. "NcrSmartCardReader.dll"]
+10-27 18:23:26.803  8468  4644 I [9:564] Smartcard reader plugin ["PCSCLib.dll"]
+10-27 18:23:26.811  8468  4644 I [49:612] Reading plugin ["PCSCLib.dll"] configuration from config file
+10-27 18:23:26.811  8468  4644 I [9:251] Plugin integrity check required [false]
+10-27 18:23:26.811  8468  4644 I [49:632] Contact interface supported [true]
+10-27 18:23:26.811  8468  4644 I [49:642] Contactless interface supported [true]
+10-27 18:23:26.811  8468  4644 I [9:613] Loaded plugin ["PCSCLib.dll"]
+10-27 18:23:26.811  8468  4644 I [9:564] Smartcard reader plugin ["NcrSmartCardReader.dll"]
+10-27 18:23:26.812  8468  4644 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrSmartCardReader.dll"]
+10-27 18:23:26.812  8468  4644 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:23:26.812  8468  4644 I [9:400] Plugin not loaded ["NcrSmartCardReader.dll"]
+10-27 18:23:26.812  8468  4644 I [9:534] "fingerprint_scanner" plugins in configuration
+10-27 18:23:26.812  8468  4644 I [9:542] [0. "SagemMSO1350.dll"]
+10-27 18:23:26.812  8468  4644 I [9:542] [1. "DermalogPluginZF1.dll"]
+10-27 18:23:26.812  8468  4644 I [9:542] [2. "NcrFingerprintReader.dll"]
+10-27 18:23:26.812  8468  4644 I [9:542] [3. "Secugen.dll"]
+10-27 18:23:26.812  8468  4644 I [9:568] Fingerprint scanner plugin ["SagemMSO1350.dll"]
+10-27 18:23:26.827  8468  4644 I [49:612] Reading plugin ["SagemMSO1350.dll"] configuration from config file
+10-27 18:23:26.827  8468  4644 I [9:251] Plugin integrity check required [false]
+10-27 18:23:26.827  8468  4644 I [49:654] Raw image supported [true]
+10-27 18:23:26.827  8468  4644 I [49:665] Capture and convert supported [true]
+10-27 18:23:26.827  8468  4644 I [49:673] Captured fingerprint quality [60]
+10-27 18:23:26.827  8468  4644 I [9:613] Loaded plugin ["SagemMSO1350.dll"]
+10-27 18:23:26.827  8468  4644 I [9:568] Fingerprint scanner plugin ["DermalogPluginZF1.dll"]
+10-27 18:23:26.827  8468  4644 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\DermalogPluginZF1.dll"]
+10-27 18:23:26.827  8468  4644 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:23:26.828  8468  4644 I [9:400] Plugin not loaded ["DermalogPluginZF1.dll"]
+10-27 18:23:26.828  8468  4644 I [9:568] Fingerprint scanner plugin ["NcrFingerprintReader.dll"]
+10-27 18:23:26.828  8468  4644 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrFingerprintReader.dll"]
+10-27 18:23:26.828  8468  4644 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:23:26.828  8468  4644 I [9:400] Plugin not loaded ["NcrFingerprintReader.dll"]
+10-27 18:23:26.828  8468  4644 I [9:568] Fingerprint scanner plugin ["Secugen.dll"]
+10-27 18:23:26.828  8468  4644 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\Secugen.dll"]
+10-27 18:23:26.828  8468  4644 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:23:26.828  8468  4644 I [9:400] Plugin not loaded ["Secugen.dll"]
+10-27 18:23:26.829  8468  4644 I [37:524] Client OS version ["Windows 10.0"]
+10-27 18:23:26.829  8468  4644 I [37:549] Client processor architecture ["X64"]
+10-27 18:23:26.829  8468  4644 I [37:607] Client SDK platform ["Windows"]
+10-27 18:23:45.389  8468  4644 I [33:977] Invoking get toolkit version API
+10-27 18:24:02.578  8468  4644 I [17:1735] Invoking get deviceID API
+10-27 18:24:02.578  8468  4644 E [14:1367] The license provided is not authorized for this service.
+10-27 18:24:02.578  8468  4644 E [17:1754] Failed to get device information [Error#14:1367:23, "Functionality not supported"]
+10-27 18:24:06.488  8468  4644 I [17:1946] Invoking get license expiry date API
+10-27 18:24:15.578  8468  4644 I [33:375] Invoking ListReaders service
+10-27 18:24:15.578  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:24:15.578  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:24:15.580  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:24:15.580  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:24:21.378  8468  4644 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:24:21.378  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:24:21.378  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:24:21.380  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:24:21.382  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:24:21.382  8468  4644 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:24:21.545  8468  4644 I [9:933] Established connection with smartcard
+10-27 18:24:21.545  8468  4644 I [9:1572] Invoking plugin get ATR
+10-27 18:24:21.547  8468  4644 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:24:21.547  8468  4644 I [9:2059] Invoking plugin smart card reader serial number
+10-27 18:24:21.547  8468  4644 I [9:2072] Could not retrieve serial number from the connected smart card reader
+10-27 18:24:21.547  8468  4644 I [9:2102] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:24.684  8468  4644 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:25:24.684  8468  4644 I [9:971] Invoking plugin ["PCSCLib.dll"] disconnect
+10-27 18:25:24.685  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:25:24.685  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:25:24.688  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:24.688  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:24.688  8468  4644 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:24.691  8468  4644 E [9:923] Plugin connect failed [Error#245]
+10-27 18:25:24.691  8468  4644 E [9:924] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:24.691  8468  4644 E [9:925] Failed to connect to smartcard reader [0_HID Global OMNIKEY 3x21 Smart Card Reader 0]
+10-27 18:25:24.691  8468  4644 E [39:655] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:24.691  8468  4644 E [39:757] Toolkit operation failed
+10-27 18:25:24.691  8468  4644 E [33:931] Toolkit operation failed
+10-27 18:25:25.696  8468  4644 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:25:25.696  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:25:25.696  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:25:25.698  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:25.698  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:25.698  8468  4644 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:25.700  8468  4644 E [9:923] Plugin connect failed [Error#245]
+10-27 18:25:25.700  8468  4644 E [9:924] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:25.700  8468  4644 E [9:925] Failed to connect to smartcard reader [0_HID Global OMNIKEY 3x21 Smart Card Reader 0]
+10-27 18:25:25.700  8468  4644 E [39:655] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:25.700  8468  4644 E [39:757] Toolkit operation failed
+10-27 18:25:25.700  8468  4644 E [33:931] Toolkit operation failed
+10-27 18:25:26.467  8468  4644 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:25:26.467  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:25:26.467  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:25:26.469  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:26.469  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:26.469  8468  4644 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:26.474  8468  4644 E [9:923] Plugin connect failed [Error#245]
+10-27 18:25:26.475  8468  4644 E [9:924] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:26.475  8468  4644 E [9:925] Failed to connect to smartcard reader [0_HID Global OMNIKEY 3x21 Smart Card Reader 0]
+10-27 18:25:26.475  8468  4644 E [39:655] Smartcard connection failed [Error#9:924:245, "Smartcard has been removed, please insert the card & connect again"]
+10-27 18:25:26.475  8468  4644 E [39:757] Toolkit operation failed
+10-27 18:25:26.475  8468  4644 E [33:931] Toolkit operation failed
+10-27 18:25:30.611  8468  4644 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:25:30.611  8468  4644 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:25:30.611  8468  4644 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:25:30.613  8468  4644 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:30.616  8468  4644 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:30.616  8468  4644 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:25:30.619  8468  4644 I [9:933] Established connection with smartcard
+10-27 18:25:30.619  8468  4644 I [9:1572] Invoking plugin get ATR
+10-27 18:25:30.621  8468  4644 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:30.621  8468  4644 I [9:2059] Invoking plugin smart card reader serial number
+10-27 18:25:30.622  8468  4644 I [9:2072] Could not retrieve serial number from the connected smart card reader
+10-27 18:25:30.622  8468  4644 I [9:2102] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:34.046  8468  4644 I [33:477] Invoking Connect API
+10-27 18:25:34.047  8468  4644 I [9:1572] Invoking plugin get ATR
+10-27 18:25:34.047  8468  4644 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:25:34.047  8468  4644 I [39:181] EIDA card version ["1"]
+10-27 18:25:37.753  8468  4644 I [33:594] Invoking get interface type API
+10-27 18:25:40.582  8468  4644 I [33:632] Invoking get CSN API
+10-27 18:25:43.036  8468  4644 I [33:1033] Invoking ReadPublicData service
+10-27 18:25:43.036  8468  4644 I [33:1054] ReadPublicData options [NONMODIFIABLE_DATA: true, MODIFIABLE_DATA: true, PHOTOGRAPHY: true, SIGNATURE_IMAGE: true, ADDRESS: true]
+10-27 18:25:44.288  8468  4644 I [17:986] Invoked execute command - 70 times successfully
+10-27 18:25:44.288  8468  4644 I [17:1202] Service status : ["ReadPublicDataOffline"] Service execution completed 
+
+10-27 18:55:44.933  1096 17400 I [17:1415] Initializing Emirates ID Card Toolkit
+10-27 18:55:44.933  1096 17400 I [17:1417] Toolkit version ["2.0.5"]
+10-27 18:55:44.933  1096 17400 I [17:1294] SDK used is ["DotNet"]
+10-27 18:55:44.933  1096 17400 W [30:1472] Failed to load config_pd data [Error#1:134:12, "File could not be opened"]
+10-27 18:55:44.952  1096 17400 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCert"]
+10-27 18:55:44.952  1096 17400 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCertChain"]
+10-27 18:55:44.952  1096 17400 I [5:274] License expiry date ["2024-06-05+04:00"]
+10-27 18:55:44.952  1096 17400 I [30:1728] License type PRE-PRODUCTION
+10-27 18:55:45.007  1096 17400 E [37:2096] Failed to load config_sb data [Error#1:134:12, "File could not be opened"]
+10-27 18:55:45.008  1096 17400 I [37:2183] config_sb file not loaded
+10-27 18:55:45.011  1096 17400 I [30:1910] Encoded configuration file content version [config_vg_qa ["1.1"] config_li ["1.1"] config_lv_qa ["1.1"] config_pg ["1.1"] config_tk_qa [""]]
+10-27 18:55:45.013  1096 17400 I [37:347] Log level ["INFO"]
+10-27 18:55:45.013  1096 17400 I [37:385] SM mode [2]
+10-27 18:55:45.013  1096 17400 I [37:406] Enable digital signature [false]
+10-27 18:55:45.013  1096 17400 I [37:427] Read public data offline [false]
+10-27 18:55:45.013  1096 17400 I [37:431] Log performance time [false]
+10-27 18:55:45.013  1096 17400 I [37:466] Client SDK mode ["InProcess"]
+10-27 18:55:45.013  1096 17400 I [9:534] "smartcard_reader" plugins in configuration
+10-27 18:55:45.013  1096 17400 I [9:542] [0. "PCSCLib.dll"]
+10-27 18:55:45.013  1096 17400 I [9:542] [1. "NcrSmartCardReader.dll"]
+10-27 18:55:45.014  1096 17400 I [9:564] Smartcard reader plugin ["PCSCLib.dll"]
+10-27 18:55:45.357  1096 17400 I [49:612] Reading plugin ["PCSCLib.dll"] configuration from config file
+10-27 18:55:45.357  1096 17400 I [9:251] Plugin integrity check required [false]
+10-27 18:55:45.358  1096 17400 I [49:632] Contact interface supported [true]
+10-27 18:55:45.358  1096 17400 I [49:642] Contactless interface supported [true]
+10-27 18:55:45.358  1096 17400 I [9:613] Loaded plugin ["PCSCLib.dll"]
+10-27 18:55:45.358  1096 17400 I [9:564] Smartcard reader plugin ["NcrSmartCardReader.dll"]
+10-27 18:55:45.358  1096 17400 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrSmartCardReader.dll"]
+10-27 18:55:45.358  1096 17400 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:55:45.358  1096 17400 I [9:400] Plugin not loaded ["NcrSmartCardReader.dll"]
+10-27 18:55:45.358  1096 17400 I [9:534] "fingerprint_scanner" plugins in configuration
+10-27 18:55:45.358  1096 17400 I [9:542] [0. "SagemMSO1350.dll"]
+10-27 18:55:45.358  1096 17400 I [9:542] [1. "DermalogPluginZF1.dll"]
+10-27 18:55:45.358  1096 17400 I [9:542] [2. "NcrFingerprintReader.dll"]
+10-27 18:55:45.358  1096 17400 I [9:542] [3. "Secugen.dll"]
+10-27 18:55:45.358  1096 17400 I [9:568] Fingerprint scanner plugin ["SagemMSO1350.dll"]
+10-27 18:55:46.528  1096 17400 I [49:612] Reading plugin ["SagemMSO1350.dll"] configuration from config file
+10-27 18:55:46.528  1096 17400 I [9:251] Plugin integrity check required [false]
+10-27 18:55:46.528  1096 17400 I [49:654] Raw image supported [true]
+10-27 18:55:46.528  1096 17400 I [49:665] Capture and convert supported [true]
+10-27 18:55:46.528  1096 17400 I [49:673] Captured fingerprint quality [60]
+10-27 18:55:46.528  1096 17400 I [9:613] Loaded plugin ["SagemMSO1350.dll"]
+10-27 18:55:46.528  1096 17400 I [9:568] Fingerprint scanner plugin ["DermalogPluginZF1.dll"]
+10-27 18:55:46.528  1096 17400 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\DermalogPluginZF1.dll"]
+10-27 18:55:46.528  1096 17400 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:55:46.529  1096 17400 I [9:400] Plugin not loaded ["DermalogPluginZF1.dll"]
+10-27 18:55:46.529  1096 17400 I [9:568] Fingerprint scanner plugin ["NcrFingerprintReader.dll"]
+10-27 18:55:46.529  1096 17400 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrFingerprintReader.dll"]
+10-27 18:55:46.529  1096 17400 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:55:46.529  1096 17400 I [9:400] Plugin not loaded ["NcrFingerprintReader.dll"]
+10-27 18:55:46.529  1096 17400 I [9:568] Fingerprint scanner plugin ["Secugen.dll"]
+10-27 18:55:46.529  1096 17400 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\Secugen.dll"]
+10-27 18:55:46.529  1096 17400 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:55:46.529  1096 17400 I [9:400] Plugin not loaded ["Secugen.dll"]
+10-27 18:55:46.530  1096 17400 I [37:524] Client OS version ["Windows 10.0"]
+10-27 18:55:46.530  1096 17400 I [37:549] Client processor architecture ["X64"]
+10-27 18:55:46.530  1096 17400 I [37:607] Client SDK platform ["Windows"]
+10-27 18:55:57.529  1096 17400 I [17:1735] Invoking get deviceID API
+10-27 18:55:57.529  1096 17400 E [14:1367] The license provided is not authorized for this service.
+10-27 18:55:57.529  1096 17400 E [17:1754] Failed to get device information [Error#14:1367:23, "Functionality not supported"]
+10-27 18:56:01.826  1096 17400 I [17:1946] Invoking get license expiry date API
+10-27 18:56:08.660  1096 17400 I [33:375] Invoking ListReaders service
+10-27 18:56:08.660  1096 17400 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:56:08.660  1096 17400 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:56:08.662  1096 17400 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:56:08.662  1096 17400 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:56:12.663  1096 17400 I [33:914] Invoking GetConnectedReaderAndSerialNumber API
+10-27 18:56:12.663  1096 17400 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:56:12.663  1096 17400 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:56:12.664  1096 17400 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:56:12.664  1096 17400 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:56:12.664  1096 17400 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:56:12.841  1096 17400 I [9:933] Established connection with smartcard
+10-27 18:56:12.841  1096 17400 I [9:1572] Invoking plugin get ATR
+10-27 18:56:12.842  1096 17400 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:56:12.842  1096 17400 I [9:2059] Invoking plugin smart card reader serial number
+10-27 18:56:12.843  1096 17400 I [9:2072] Could not retrieve serial number from the connected smart card reader
+10-27 18:56:12.843  1096 17400 I [9:2102] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:56:15.702  1096 17400 I [33:477] Invoking Connect API
+10-27 18:56:15.702  1096 17400 I [9:1572] Invoking plugin get ATR
+10-27 18:56:15.702  1096 17400 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:56:15.702  1096 17400 I [39:181] EIDA card version ["1"]
+10-27 18:56:49.365  3948 20736 I [17:1415] Initializing Emirates ID Card Toolkit
+10-27 18:56:49.365  3948 20736 I [17:1417] Toolkit version ["2.0.5"]
+10-27 18:56:49.366  3948 20736 I [17:1294] SDK used is ["DotNet"]
+10-27 18:56:49.366  3948 20736 W [30:1472] Failed to load config_pd data [Error#1:134:12, "File could not be opened"]
+10-27 18:56:49.367  3948 20736 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCert"]
+10-27 18:56:49.367  3948 20736 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCertChain"]
+10-27 18:56:49.367  3948 20736 I [5:274] License expiry date ["2024-06-05+04:00"]
+10-27 18:56:49.368  3948 20736 I [30:1728] License type PRE-PRODUCTION
+10-27 18:56:49.377  3948 20736 E [37:2096] Failed to load config_sb data [Error#1:134:12, "File could not be opened"]
+10-27 18:56:49.378  3948 20736 I [37:2183] config_sb file not loaded
+10-27 18:56:49.381  3948 20736 I [30:1910] Encoded configuration file content version [config_vg_qa ["1.1"] config_li ["1.1"] config_lv_qa ["1.1"] config_pg ["1.1"] config_tk_qa [""]]
+10-27 18:56:49.382  3948 20736 I [37:347] Log level ["INFO"]
+10-27 18:56:49.382  3948 20736 I [37:385] SM mode [2]
+10-27 18:56:49.382  3948 20736 I [37:406] Enable digital signature [false]
+10-27 18:56:49.382  3948 20736 I [37:427] Read public data offline [false]
+10-27 18:56:49.382  3948 20736 I [37:431] Log performance time [false]
+10-27 18:56:49.382  3948 20736 I [37:466] Client SDK mode ["InProcess"]
+10-27 18:56:49.383  3948 20736 I [9:534] "smartcard_reader" plugins in configuration
+10-27 18:56:49.383  3948 20736 I [9:542] [0. "PCSCLib.dll"]
+10-27 18:56:49.383  3948 20736 I [9:542] [1. "NcrSmartCardReader.dll"]
+10-27 18:56:49.383  3948 20736 I [9:564] Smartcard reader plugin ["PCSCLib.dll"]
+10-27 18:56:49.386  3948 20736 I [49:612] Reading plugin ["PCSCLib.dll"] configuration from config file
+10-27 18:56:49.386  3948 20736 I [9:251] Plugin integrity check required [false]
+10-27 18:56:49.386  3948 20736 I [49:632] Contact interface supported [true]
+10-27 18:56:49.386  3948 20736 I [49:642] Contactless interface supported [true]
+10-27 18:56:49.386  3948 20736 I [9:613] Loaded plugin ["PCSCLib.dll"]
+10-27 18:56:49.386  3948 20736 I [9:564] Smartcard reader plugin ["NcrSmartCardReader.dll"]
+10-27 18:56:49.386  3948 20736 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrSmartCardReader.dll"]
+10-27 18:56:49.386  3948 20736 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:56:49.386  3948 20736 I [9:400] Plugin not loaded ["NcrSmartCardReader.dll"]
+10-27 18:56:49.386  3948 20736 I [9:534] "fingerprint_scanner" plugins in configuration
+10-27 18:56:49.387  3948 20736 I [9:542] [0. "SagemMSO1350.dll"]
+10-27 18:56:49.387  3948 20736 I [9:542] [1. "DermalogPluginZF1.dll"]
+10-27 18:56:49.387  3948 20736 I [9:542] [2. "NcrFingerprintReader.dll"]
+10-27 18:56:49.387  3948 20736 I [9:542] [3. "Secugen.dll"]
+10-27 18:56:49.387  3948 20736 I [9:568] Fingerprint scanner plugin ["SagemMSO1350.dll"]
+10-27 18:56:49.392  3948 20736 I [49:612] Reading plugin ["SagemMSO1350.dll"] configuration from config file
+10-27 18:56:49.392  3948 20736 I [9:251] Plugin integrity check required [false]
+10-27 18:56:49.392  3948 20736 I [49:654] Raw image supported [true]
+10-27 18:56:49.392  3948 20736 I [49:665] Capture and convert supported [true]
+10-27 18:56:49.392  3948 20736 I [49:673] Captured fingerprint quality [60]
+10-27 18:56:49.392  3948 20736 I [9:613] Loaded plugin ["SagemMSO1350.dll"]
+10-27 18:56:49.392  3948 20736 I [9:568] Fingerprint scanner plugin ["DermalogPluginZF1.dll"]
+10-27 18:56:49.392  3948 20736 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\DermalogPluginZF1.dll"]
+10-27 18:56:49.392  3948 20736 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:56:49.392  3948 20736 I [9:400] Plugin not loaded ["DermalogPluginZF1.dll"]
+10-27 18:56:49.392  3948 20736 I [9:568] Fingerprint scanner plugin ["NcrFingerprintReader.dll"]
+10-27 18:56:49.392  3948 20736 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrFingerprintReader.dll"]
+10-27 18:56:49.392  3948 20736 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:56:49.392  3948 20736 I [9:400] Plugin not loaded ["NcrFingerprintReader.dll"]
+10-27 18:56:49.393  3948 20736 I [9:568] Fingerprint scanner plugin ["Secugen.dll"]
+10-27 18:56:49.393  3948 20736 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\Secugen.dll"]
+10-27 18:56:49.393  3948 20736 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 18:56:49.393  3948 20736 I [9:400] Plugin not loaded ["Secugen.dll"]
+10-27 18:56:49.393  3948 20736 I [37:524] Client OS version ["Windows 10.0"]
+10-27 18:56:49.393  3948 20736 I [37:549] Client processor architecture ["X64"]
+10-27 18:56:49.393  3948 20736 I [37:607] Client SDK platform ["Windows"]
+10-27 18:56:57.878  3948 20736 I [33:375] Invoking ListReaders service
+10-27 18:56:57.878  3948 20736 I [9:1034] Loaded smart card plugins count [1]
+10-27 18:56:57.878  3948 20736 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 18:56:57.880  3948 20736 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:56:57.880  3948 20736 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:57:03.674  3948 20736 I [33:477] Invoking Connect API
+10-27 18:57:03.674  3948 20736 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 18:57:03.843  3948 20736 I [9:933] Established connection with smartcard
+10-27 18:57:03.843  3948 20736 I [9:1572] Invoking plugin get ATR
+10-27 18:57:03.845  3948 20736 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 18:57:03.845  3948 20736 I [39:181] EIDA card version ["1"]
+10-27 18:57:20.007  3948 20736 I [33:1033] Invoking ReadPublicData service
+10-27 18:57:20.008  3948 20736 I [33:1054] ReadPublicData options [NONMODIFIABLE_DATA: true, MODIFIABLE_DATA: true, PHOTOGRAPHY: true, SIGNATURE_IMAGE: true, ADDRESS: true]
+10-27 18:57:21.282  3948 20736 I [17:986] Invoked execute command - 70 times successfully
+10-27 18:57:21.282  3948 20736 I [17:1202] Service status : ["ReadPublicDataOffline"] Service execution completed 
+
+10-27 18:58:45.837  3948 20736 I [33:1601] Invoking read public data EF API
+10-27 18:58:45.837  3948 20736 E [33:1601] The license provided is not authorized for this service.
+10-27 18:58:52.002  3948 20736 I [33:1601] Invoking read public data EF API
+10-27 18:58:52.002  3948 20736 E [33:1601] The license provided is not authorized for this service.
+10-27 18:59:24.149  3948 20736 I [32:73] Invoking GetFingerIndex API
+10-27 21:36:05.126 22992 15100 I [17:1415] Initializing Emirates ID Card Toolkit
+10-27 21:36:05.126 22992 15100 I [17:1417] Toolkit version ["2.0.5"]
+10-27 21:36:05.126 22992 15100 I [17:1294] SDK used is ["DotNet"]
+10-27 21:36:05.126 22992 15100 W [30:1472] Failed to load config_pd data [Error#1:134:12, "File could not be opened"]
+10-27 21:36:05.139 22992 15100 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCert"]
+10-27 21:36:05.139 22992 15100 W [2:1208] Failed to retrieve XML node ["LicenseType\LicenseDetail\ServerTLSCertChain"]
+10-27 21:36:05.139 22992 15100 I [5:274] License expiry date ["2024-06-05+04:00"]
+10-27 21:36:05.139 22992 15100 I [30:1728] License type PRE-PRODUCTION
+10-27 21:36:05.178 22992 15100 E [37:2096] Failed to load config_sb data [Error#1:134:12, "File could not be opened"]
+10-27 21:36:05.178 22992 15100 I [37:2183] config_sb file not loaded
+10-27 21:36:05.180 22992 15100 I [30:1910] Encoded configuration file content version [config_vg_qa ["1.1"] config_li ["1.1"] config_lv_qa ["1.1"] config_pg ["1.1"] config_tk_qa [""]]
+10-27 21:36:05.181 22992 15100 I [37:347] Log level ["INFO"]
+10-27 21:36:05.181 22992 15100 I [37:385] SM mode [2]
+10-27 21:36:05.181 22992 15100 I [37:406] Enable digital signature [false]
+10-27 21:36:05.181 22992 15100 I [37:427] Read public data offline [false]
+10-27 21:36:05.181 22992 15100 I [37:431] Log performance time [false]
+10-27 21:36:05.181 22992 15100 I [37:466] Client SDK mode ["InProcess"]
+10-27 21:36:05.181 22992 15100 I [9:534] "smartcard_reader" plugins in configuration
+10-27 21:36:05.181 22992 15100 I [9:542] [0. "PCSCLib.dll"]
+10-27 21:36:05.181 22992 15100 I [9:542] [1. "NcrSmartCardReader.dll"]
+10-27 21:36:05.181 22992 15100 I [9:564] Smartcard reader plugin ["PCSCLib.dll"]
+10-27 21:36:05.188 22992 15100 I [49:612] Reading plugin ["PCSCLib.dll"] configuration from config file
+10-27 21:36:05.188 22992 15100 I [9:251] Plugin integrity check required [false]
+10-27 21:36:05.188 22992 15100 I [49:632] Contact interface supported [true]
+10-27 21:36:05.188 22992 15100 I [49:642] Contactless interface supported [true]
+10-27 21:36:05.188 22992 15100 I [9:613] Loaded plugin ["PCSCLib.dll"]
+10-27 21:36:05.188 22992 15100 I [9:564] Smartcard reader plugin ["NcrSmartCardReader.dll"]
+10-27 21:36:05.188 22992 15100 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrSmartCardReader.dll"]
+10-27 21:36:05.188 22992 15100 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 21:36:05.188 22992 15100 I [9:400] Plugin not loaded ["NcrSmartCardReader.dll"]
+10-27 21:36:05.188 22992 15100 I [9:534] "fingerprint_scanner" plugins in configuration
+10-27 21:36:05.188 22992 15100 I [9:542] [0. "SagemMSO1350.dll"]
+10-27 21:36:05.189 22992 15100 I [9:542] [1. "DermalogPluginZF1.dll"]
+10-27 21:36:05.189 22992 15100 I [9:542] [2. "NcrFingerprintReader.dll"]
+10-27 21:36:05.189 22992 15100 I [9:542] [3. "Secugen.dll"]
+10-27 21:36:05.189 22992 15100 I [9:568] Fingerprint scanner plugin ["SagemMSO1350.dll"]
+10-27 21:36:05.289 22992 15100 I [49:612] Reading plugin ["SagemMSO1350.dll"] configuration from config file
+10-27 21:36:05.289 22992 15100 I [9:251] Plugin integrity check required [false]
+10-27 21:36:05.289 22992 15100 I [49:654] Raw image supported [true]
+10-27 21:36:05.289 22992 15100 I [49:665] Capture and convert supported [true]
+10-27 21:36:05.289 22992 15100 I [49:673] Captured fingerprint quality [60]
+10-27 21:36:05.289 22992 15100 I [9:613] Loaded plugin ["SagemMSO1350.dll"]
+10-27 21:36:05.289 22992 15100 I [9:568] Fingerprint scanner plugin ["DermalogPluginZF1.dll"]
+10-27 21:36:05.289 22992 15100 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\DermalogPluginZF1.dll"]
+10-27 21:36:05.289 22992 15100 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 21:36:05.289 22992 15100 I [9:400] Plugin not loaded ["DermalogPluginZF1.dll"]
+10-27 21:36:05.289 22992 15100 I [9:568] Fingerprint scanner plugin ["NcrFingerprintReader.dll"]
+10-27 21:36:05.289 22992 15100 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\NcrFingerprintReader.dll"]
+10-27 21:36:05.289 22992 15100 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 21:36:05.289 22992 15100 I [9:400] Plugin not loaded ["NcrFingerprintReader.dll"]
+10-27 21:36:05.289 22992 15100 I [9:568] Fingerprint scanner plugin ["Secugen.dll"]
+10-27 21:36:05.289 22992 15100 E [6:61] Failed to load executable module ["C:\Users\rashi\source\repos\uaeidcard\uaeidcard\bin\Debug\Secugen.dll"]
+10-27 21:36:05.289 22992 15100 E [6:76] Failed to load executable module due to ["The specified module could not be found."]
+10-27 21:36:05.289 22992 15100 I [9:400] Plugin not loaded ["Secugen.dll"]
+10-27 21:36:05.290 22992 15100 I [37:524] Client OS version ["Windows 10.0"]
+10-27 21:36:05.290 22992 15100 I [37:549] Client processor architecture ["X64"]
+10-27 21:36:05.290 22992 15100 I [37:607] Client SDK platform ["Windows"]
+10-27 21:36:30.702 22992 15100 I [33:375] Invoking ListReaders service
+10-27 21:36:30.702 22992 15100 I [9:1034] Loaded smart card plugins count [1]
+10-27 21:36:30.702 22992 15100 I [9:1090] Invoking plugin ["PCSCLib.dll"] list readers
+10-27 21:36:30.705 22992 15100 I [9:1133] Plugin[0] reader name ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 21:36:30.705 22992 15100 I [9:1158] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 21:36:46.577 22992 15100 I [33:477] Invoking Connect API
+10-27 21:36:46.577 22992 15100 I [9:911] Connecting plugin with reader ["HID Global OMNIKEY 3x21 Smart Card Reader 0"]
+10-27 21:36:46.746 22992 15100 I [9:933] Established connection with smartcard
+10-27 21:36:46.746 22992 15100 I [9:1572] Invoking plugin get ATR
+10-27 21:36:46.751 22992 15100 I [9:1618] Invoking plugin ["PCSCLib.dll"] free memory
+10-27 21:36:46.751 22992 15100 I [39:181] EIDA card version ["1"]
+10-27 21:37:05.080 22992 15100 I [33:1033] Invoking ReadPublicData service
+10-27 21:37:05.080 22992 15100 I [33:1054] ReadPublicData options [NONMODIFIABLE_DATA: true, MODIFIABLE_DATA: true, PHOTOGRAPHY: true, SIGNATURE_IMAGE: true, ADDRESS: true]
+10-27 21:37:06.327 22992 15100 I [17:986] Invoked execute command - 70 times successfully
+10-27 21:37:06.327 22992 15100 I [17:1202] Service status : ["ReadPublicDataOffline"] Service execution completed 
+
